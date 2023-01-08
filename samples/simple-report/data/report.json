@@ -65,6 +65,9 @@
             "number" : {
                 "format" : "0.00"
             }
+        },
+        "printing": {
+            "method": "browser"
         }
     },
 
