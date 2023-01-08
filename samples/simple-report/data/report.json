@@ -7,15 +7,16 @@
     "options" : {
         "locale" : "en",
         "coverPage": {
-            "enabled": true            
+            "enabled": false            
         },
         "template": "Theme2",        
-        "toolbar" : {            
+        "toolbar" : {          
+            "showLocaleButton": false,  
             "showOptionsButton" : true,
             "showSettingsButton" : true,
             "showCriteriasButton" : true,
             "showPrintButton" : true,            
-            "showExportButton" : true,
+            "showExportButton" : false,
             "showCloseButton" : true
         },
         "exportFormats" : {
