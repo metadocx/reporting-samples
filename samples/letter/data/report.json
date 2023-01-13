@@ -1,0 +1,96 @@
+{
+    "id" : "timesheetsReport",    
+    "properties" : {
+        "name" : "Timesheets",
+        "description" : "Timesheets per customer and project",
+        "author" : "Benoit Gauthier",
+        "version" : "5.0"
+    },        
+    "options" : {
+        "locale" : "fr",
+        "coverPage": {
+            "enabled": false            
+        },
+        "template": "Theme2",        
+        "toolbar" : {            
+            "showOptionsButton" : true,
+            "showSettingsButton" : true,
+            "showCriteriasButton" : true,
+            "showPrintButton" : true,            
+            "showExportButton" : true,
+            "showCloseButton" : true
+        },
+        "exportFormats" : {
+            "pdf" : true,
+            "word" : true,
+            "excel" : true
+        },
+        "page" : {
+            "orientation" : "portrait",
+            "paperSize" : "Letter",
+            "margins" : {
+                "top" : 0.5,
+                "bottom" : 0.5,
+                "left" : 0.5,
+                "right" : 0.5
+            }
+        },
+        "settings" : {
+            
+            "fields" : true,
+            "fieldsReorder" : true,
+            "fieldsSelection" : true,
+            "fieldsFormula" : true,            
+            
+            "orderBy" : true,
+            "orderByReorder" : true,
+            "orderBySelection" : true,
+            "orderByOrder" : true,
+
+            "groupBy" : true,
+            "groupByReorder" : true,
+            "groupBySelection" : true,
+            "groupByOrder" : true
+        },
+        "formats" : {           
+        }
+    },
+
+    "criterias" : [        
+    ], 
+
+    "sections" : [
+        {
+            "id": "headerHTML",
+            "type" : "HTML",
+            "content" : [
+                "<b>1234 Hamilton Road<br>",
+                "Hamilton, Bermuda 56789<br>",
+                "April 1, 2024</b><br>",
+                "<br>",
+                "Mr. John Williams<br>",
+                "Bank of Hamilton's Manager<br>",
+                "6789 Hamilton Road<br>",
+                "Hamilton, Bermuda 56789<br>",
+                "<br>",
+                "<b>Re: Account Number 123456</b><br>",
+                "<br>",
+                "<br>",
+                "Dear Mr. Williams,<br><br>",
+                "Please be informed that Mr. Jack Major is authorized to act on my behalf regarding this account from April 17, 2014 until May 27, 2014. I will be in Paris, France and will not be able to attend to my affairs. During the mentioned above dates, Mr. Jack Major is authorized to withdraw funds, deposit funds, write checks, and initiate wire transfers from this account.<br>",
+                "<br>",
+                "Please call me at this number 555-1212 if you have any questions.<br>",
+                "<br>",
+                "<br>",
+                "<br>",
+                "Sincerely,<br>",
+                "<br>",
+                "<br>",
+                "George Major<br>",
+                "<br>"
+            ]
+        }       
+        
+        
+    ]
+}
