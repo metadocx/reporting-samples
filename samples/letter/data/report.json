@@ -1,8 +1,8 @@
 {
     "id" : "timesheetsReport",    
     "properties" : {
-        "name" : "Timesheets",
-        "description" : "Timesheets per customer and project",
+        "name" : "Letter",
+        "description" : "Letter of authorisation",
         "author" : "Benoit Gauthier",
         "version" : "5.0"
     },        
